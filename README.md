@@ -1,5 +1,4 @@
 # OptimusPrimer
-Primer design tool
 This is OptimusPrimer, a comprehensive Python-based tool for designing and optimizing PCR primers for DNA amplification and cloning. It focuses on finding optimal forward and reverse primer pairs that minimize secondary structures, dimers, and other thermodynamic issues while meeting user-defined constraints.
 
 ## Key Features
