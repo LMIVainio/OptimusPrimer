@@ -36,6 +36,7 @@ Promoter: annotated promoter region, F search region: specified search area for 
  ![Picture3](images/Picture3.png)
  
 Table of primers with Forward/Reverse pairs with scoring
+
 4. Visualize and Validate:
    - `plot_dimer()` and `plot_linear()` for primer structure visualization.
 
