@@ -32,17 +32,23 @@ Promoter: annotated promoter region, F search region: specified search area for 
 3. Pair and Score:
    - `find_primer_pairs()` combines forward and reverse candidates, filtering by Tm match, product size, and MFE.
    - `score_primers()` ranks pairs using weighted criteria (GC clamp, Tm deviation, MFE, etc.).
- 
+
+ ![Picture2](images/Picture2.png)
+ ![Picture3](images/Picture3.png)
  
 Table of primers with Forward/Reverse pairs with scoring
 4. Visualize and Validate:
    - `plot_dimer()` and `plot_linear()` for primer structure visualization.
    - `visualize_sequence_html()` for annotated sequence display with score heatmaps.
    - Check for overlaps or issues with `remove_overlapping_primers()`.
- 
+
+![Picture4](images/Picture4.png)
+![Picture5](images/Picture5.png)
  
 linear primers with adapters
- 
+
+![Picture6](images/Picture6.png)
+
 Primer secondary structures (this is heterodimer example)
 5. Batch Processing:
    - `analyze_primers_from_xlsx()` reads primers from Excel, analyzes them, and exports results.
