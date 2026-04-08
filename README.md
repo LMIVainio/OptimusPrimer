@@ -39,7 +39,7 @@ Promoter: annotated promoter region, F search region: specified search area for 
 Table of primers with Forward/Reverse pairs with scoring
 4. Visualize and Validate:
    - `plot_dimer()` and `plot_linear()` for primer structure visualization.
-   - 
+
 ![Picture4](images/Picture4.png)
 ![Picture5](images/Picture5.png)
  
@@ -47,14 +47,17 @@ linear primers with adapters
 
 ![Picture6](images/Picture6.png)
 
-   - `visualize_sequence_html()` for annotated sequence display with score heatmaps.
+Primer secondary structures (this is an example for a heterodimer)
+
+   - `visualize_sequence_html()` for annotated sequence display with score heatmaps. This can be used for longer sequence analysis.
 
 ![Picture7](images/Picture7.png)
+
+Sequence is colored by MFE (minimum free energy) or the strength of secondary structures
 
    - Check for overlaps or issues with `remove_overlapping_primers()`.
 
 
-Primer secondary structures (this is an example for a heterodimer)
 
 5. Batch Processing:
    - `analyze_primers_from_xlsx()` reads primers from Excel, analyzes them, and exports results.
