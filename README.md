@@ -50,6 +50,7 @@ linear primers with adapters
 ![Picture6](images/Picture6.png)
 
 Primer secondary structures (this is heterodimer example)
+
 5. Batch Processing:
    - `analyze_primers_from_xlsx()` reads primers from Excel, analyzes them, and exports results.
 
