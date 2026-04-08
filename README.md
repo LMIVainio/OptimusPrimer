@@ -25,7 +25,7 @@ This is OptimusPrimer, a comprehensive Python-based tool for designing and optim
 
 ![Promoter: annotated promoter region, F search region: specified search area for forward primers, BsaI cut sites visualized, R search region: specified search are for reverse primers, CDS: annotated coding sequence. HTML based annotations.](images/Picture1.png)
  
-
+Promoter: annotated promoter region, F search region: specified search area for forward primers, BsaI cut sites visualized, R search region: specified search are for reverse primers, CDS: annotated coding sequence. HTML based annotations.
 2. Find Primers:
    - Use `find_primers()` to search for candidates in forward/reverse orientations.
    - Adjust constraints (e.g., Tm threshold, product size) via the `CONSTRAINTS` dict.
