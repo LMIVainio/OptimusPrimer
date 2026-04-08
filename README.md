@@ -39,15 +39,20 @@ Promoter: annotated promoter region, F search region: specified search area for 
 Table of primers with Forward/Reverse pairs with scoring
 4. Visualize and Validate:
    - `plot_dimer()` and `plot_linear()` for primer structure visualization.
-   - `visualize_sequence_html()` for annotated sequence display with score heatmaps.
-   - Check for overlaps or issues with `remove_overlapping_primers()`.
-
+   - 
 ![Picture4](images/Picture4.png)
 ![Picture5](images/Picture5.png)
  
 linear primers with adapters
 
 ![Picture6](images/Picture6.png)
+
+   - `visualize_sequence_html()` for annotated sequence display with score heatmaps.
+
+![Picture7](images/Picture7.png)
+
+   - Check for overlaps or issues with `remove_overlapping_primers()`.
+
 
 Primer secondary structures (this is an example for a heterodimer)
 
