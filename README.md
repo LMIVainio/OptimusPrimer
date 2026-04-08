@@ -22,7 +22,7 @@ This is OptimusPrimer, a comprehensive Python-based tool for designing and optim
 
 ## Usage Overview
 1. Setup: Define your DNA sequence (e.g., promoter + CDS), search regions for forward/reverse primers, and adapter set (e.g., 'BsaI_1', 'GW_box1', 'None' or your custom adapters).
-![alt text](image/Picture1.png)
+![alt text](images/Picture1.png)
  
 Promoter: annotated promoter region, F search region: specified search area for forward primers, BsaI cut sites visualized, R search region: specified search are for reverse primers, CDS: annotated coding sequence. HTML based annotations.
 2. Find Primers:
